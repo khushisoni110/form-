@@ -1,0 +1,41 @@
+<form>   </form>
+=================
+it is use to encapsulate the user interface in a single unit 
+
+Attributes:
+============
+
+action= SERVER_URL
+it is use to move the control to specified url when user click 
+SUBMIT BUTTON 
+
+Method = GET/POST  deafalt-get
+
+GET :- it is use when user wants to transfer small information 
+will show all the information (parameters name and the values) on the address bar
+
+POST :- used when user wants to transfer large information (data/ files)
+will not display information on address bar
+
+
+
+Required :-  is is used to make any element to required or compulsary fill 
+---------       the details
+
+Regular expression :-
+=====================
+used to give patterns
+validations
+[a-z] will allow single character in lowercase
+[a-z A-Z]+  will allow more than one character in lower case
+[a-z]{20}  will allow 20 character in lower case
+
+examples:-
+
+[aeiou]+  *will allow more than one vowels in lowercase
+[c-t]+    *will allow more than one characters from c to t in lowercase
+[A-Z a-z]+       *will allow more than one character from uppercase and the lowercase
+[a-z A-Z]{5,20}  *will allow more than one character from uppercase and the lowercase minimum 5 char and maximum 20
+[a-z A-Z]{20,}   *will allow more than one character from uppercase and the lowercase min 20 char and max not limited
+[a-z A-Z]{,20}   *will allow more than one character from uppercase and the lowercase max 20 char 
+[0-9]{10}        *will allow max 10 numbers from 0-9 likewise used in mobile no.

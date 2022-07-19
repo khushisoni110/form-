@@ -1,0 +1,79 @@
+<html>
+<form action ="test.html" method="post">
+<table>
+<caption><h2><u> CUSTOMER REGISTRATION</u></h2></caption>
+<tr>
+<td><b><i>CustomerId:</i></b></td>
+<td><input type="text" name="cid" required></td>
+</tr>
+
+<tr>
+<td><b><i>Name:</i></b></td>
+<td><input type="text" name="fn" placeholder="First Name" title="invalid name please input alphabet only" required  pattern="[a-z A-Z]+"> <input type="text" name="ln" placeholder="Last Name"></td>
+</tr>
+
+<tr>
+<td><b><i>Birth Date:</i></b></td>
+<td><input type="date" name="db"></td>
+</tr>
+
+<tr>
+<td><b><i>Gender:</i></b></td>
+<td><input type="radio" name="cg" value="male"> Male
+<input type="radio" name="cg" value="female"> Female
+</td>
+</tr>
+
+<tr>
+<td><b><i>Address:</i></b></td>
+<td><textarea rows="3" cols="40" name="add"></textarea></td>
+</tr>
+
+<tr>
+<td><b><i>State:</i></b></td>
+<td><select name="state">
+<option>-Select State-</option>
+<option value="MP">Madhya Pradesh</option>
+<option value="UP">Uttar Pradesh</option>
+<option>Haryana</option>
+<option>Punjab</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td><b><i>Interest:</i></b></td>
+<td>
+<input type="checkbox" name="ci" value="electronics"> Electronics
+<input type="checkbox" name="ci" value="electrical"> Electrical
+<input type="checkbox" name="ci" value="security cam"> Security cam
+</td>
+</tr>
+
+<tr>
+<td><b><i>Email:</i></b></td>
+<td><input type="email" name="email"></td>
+</tr>
+
+<tr>
+<td><b><i>Mobile:</i></b></td>
+<td><input type="text" name="mobile" pattern="[0-9]{10}"></td>
+</tr>
+
+<tr>
+<td><b><i>Picture:</i></b></td>
+<td><input type="file" name="picture"></td>
+</tr>
+
+<tr>
+<td><b><i>Password:</i></b></td>
+<td><input type="password" name="pwd"></td>
+</tr>
+
+
+</table>
+
+ <input type="Reset"> <input type="Submit">
+</form>
+
+</html>
